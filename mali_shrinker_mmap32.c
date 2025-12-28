@@ -792,203 +792,203 @@ void select_offset() {
   int len = __system_property_get("ro.build.fingerprint", fingerprint);
   LOG("fingerprint: %s\n", fingerprint);
  
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7201/942N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7201_942;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7201_942;
     fixup_root_shell(INIT_CRED_7201_942, COMMIT_CREDS_7201_942, SEL_READ_HANDLE_UNKNOWN_7201_942, ADD_INIT_7201_942, ADD_COMMIT_7201_942);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7204/1044N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7204_1044;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7204_1044;
     fixup_root_shell(INIT_CRED_7204_1044, COMMIT_CREDS_7204_1044, SEL_READ_HANDLE_UNKNOWN_7204_1044, ADD_INIT_7204_1044, ADD_COMMIT_7204_1044);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7204/1046N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7204_1046;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7204_1046;
     fixup_root_shell(INIT_CRED_7204_1046, COMMIT_CREDS_7204_1046, SEL_READ_HANDLE_UNKNOWN_7204_1046, ADD_INIT_7204_1046, ADD_COMMIT_7204_1046);
     return;  
   } 
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7206/1098N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7206_1098;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7206_1098;
     fixup_root_shell(INIT_CRED_7206_1098, COMMIT_CREDS_7206_1098, SEL_READ_HANDLE_UNKNOWN_7206_1098, ADD_INIT_7206_1098, ADD_COMMIT_7206_1098);
     return;  
   } 
    
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7212/1333N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7212_1333;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7212_1333;
     fixup_root_shell(INIT_CRED_7212_1333, COMMIT_CREDS_7212_1333, SEL_READ_HANDLE_UNKNOWN_7212_1333, ADD_INIT_7212_1333, ADD_COMMIT_7212_1333);
     return;  
   } 
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7212/1335N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7212_1335;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7212_1335;
     fixup_root_shell(INIT_CRED_7212_1335, COMMIT_CREDS_7212_1335, SEL_READ_HANDLE_UNKNOWN_7212_1335, ADD_INIT_7212_1335, ADD_COMMIT_7212_1335);
     return;  
   } 
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7216/1582N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7216_1582;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7216_1582;
     fixup_root_shell(INIT_CRED_7216_1582, COMMIT_CREDS_7216_1582, SEL_READ_HANDLE_UNKNOWN_7216_1582, ADD_INIT_7216_1582, ADD_COMMIT_7216_1582);
     return;  
   } 
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7224/1752N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7224_1752;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7224_1752;
     fixup_root_shell(INIT_CRED_7224_1752, COMMIT_CREDS_7224_1752, SEL_READ_HANDLE_UNKNOWN_7224_1752, ADD_INIT_7224_1752, ADD_COMMIT_7224_1752);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7229/1850N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7229_1850;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7229_1850;
     fixup_root_shell(INIT_CRED_7229_1850, COMMIT_CREDS_7229_1850, SEL_READ_HANDLE_UNKNOWN_7229_1850, ADD_INIT_7229_1850, ADD_COMMIT_7229_1850);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7229/1853N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7229_1853;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7229_1853;
     fixup_root_shell(INIT_CRED_7229_1853, COMMIT_CREDS_7229_1853, SEL_READ_HANDLE_UNKNOWN_7229_1853, ADD_INIT_7229_1853, ADD_COMMIT_7229_1853);
     return;  
   } 
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7229/1856N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7229_1856;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7229_1856;
     fixup_root_shell(INIT_CRED_7229_1856, COMMIT_CREDS_7229_1856, SEL_READ_HANDLE_UNKNOWN_7229_1856, ADD_INIT_7229_1856, ADD_COMMIT_7229_1856);
     return;  
   }
   
-    if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7234/2039N:user/amz-p,release-keys")) {
+    if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7234_2039;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7234_2039;
     fixup_root_shell(INIT_CRED_7234_2039, COMMIT_CREDS_7234_2039, SEL_READ_HANDLE_UNKNOWN_7234_2039, ADD_INIT_7234_2039, ADD_COMMIT_7234_2039);
     return;  
   }
   
-    if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7234/2042N:user/amz-p,release-keys")) {
+    if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7234_2042;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7234_2042;
     fixup_root_shell(INIT_CRED_7234_2042, COMMIT_CREDS_7234_2042, SEL_READ_HANDLE_UNKNOWN_7234_2042, ADD_INIT_7234_2042, ADD_COMMIT_7234_2042);
     return;  
   }
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7242/2216N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7242_2216;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7242_2216;
     fixup_root_shell(INIT_CRED_7242_2216, COMMIT_CREDS_7242_2216, SEL_READ_HANDLE_UNKNOWN_7242_2216, ADD_INIT_7242_2216, ADD_COMMIT_7242_2216);
     return;  
   } 
 
- if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7242/2896N:user/amz-p,release-keys")) {
+ if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7242_2896;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7242_2896;
     fixup_root_shell(INIT_CRED_7242_2896, COMMIT_CREDS_7242_2896, SEL_READ_HANDLE_UNKNOWN_7242_2896, ADD_INIT_7242_2896, ADD_COMMIT_7242_2896);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7242/2906N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7242_2906;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7242_2906;
     fixup_root_shell(INIT_CRED_7242_2906, COMMIT_CREDS_7242_2906, SEL_READ_HANDLE_UNKNOWN_7242_2906, ADD_INIT_7242_2906, ADD_COMMIT_7242_2906);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7242/3515N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7242_3515;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7242_3515;
     fixup_root_shell(INIT_CRED_7242_3515, COMMIT_CREDS_7242_3515, SEL_READ_HANDLE_UNKNOWN_7242_3515, ADD_INIT_7242_3515, ADD_COMMIT_7242_3515);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7242/3516N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7242_3516;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7242_3516;
     fixup_root_shell(INIT_CRED_7242_3516, COMMIT_CREDS_7242_3516, SEL_READ_HANDLE_UNKNOWN_7242_3516, ADD_INIT_7242_3516, ADD_COMMIT_7242_3516);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:7.0/PS7273/2625N:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7273_2625;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7273_2625;
     fixup_root_shell(INIT_CRED_7273_2625, COMMIT_CREDS_7273_2625, SEL_READ_HANDLE_UNKNOWN_7273_2625, ADD_INIT_7273_2625, ADD_COMMIT_7273_2625);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7279.2766N/0023253929472:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7279_2766;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7279_2766;
     fixup_root_shell(INIT_CRED_7279_2766, COMMIT_CREDS_7279_2766, SEL_READ_HANDLE_UNKNOWN_7279_2766, ADD_INIT_7279_2766, ADD_COMMIT_7279_2766);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7285.2877N/0023723719936:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7285_2877;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7285_2877;
     fixup_root_shell(INIT_CRED_7285_2877, COMMIT_CREDS_7285_2877, SEL_READ_HANDLE_UNKNOWN_7285_2877, ADD_INIT_7285_2877, ADD_COMMIT_7285_2877);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7285.2880N/0023723720704:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7285_2880;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7285_2880;
     fixup_root_shell(INIT_CRED_7285_2880, COMMIT_CREDS_7285_2880, SEL_READ_HANDLE_UNKNOWN_7285_2880, ADD_INIT_7285_2880, ADD_COMMIT_7285_2880);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7292.2982N/0024126400000:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7292_2982;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7292_2982;
     fixup_root_shell(INIT_CRED_7292_2982, COMMIT_CREDS_7292_2982, SEL_READ_HANDLE_UNKNOWN_7292_2982, ADD_INIT_7292_2982, ADD_COMMIT_7292_2982);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7292.2984N/0024126400512:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7292_2984;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7292_2984;
     fixup_root_shell(INIT_CRED_7292_2984, COMMIT_CREDS_7292_2984, SEL_READ_HANDLE_UNKNOWN_7292_2984, ADD_INIT_7292_2984, ADD_COMMIT_7292_2984);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7603.3110N/0025065956864:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7603_3110;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7603_3110;
     fixup_root_shell(INIT_CRED_7603_3110, COMMIT_CREDS_7603_3110, SEL_READ_HANDLE_UNKNOWN_7603_3110, ADD_INIT_7603_3110, ADD_COMMIT_7603_3110);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7608.3614N/0025468739072:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7608_3614;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7608_3614;
     fixup_root_shell(INIT_CRED_7608_3614, COMMIT_CREDS_7608_3614, SEL_READ_HANDLE_UNKNOWN_7608_3614, ADD_INIT_7608_3614, ADD_COMMIT_7608_3614);
     return;  
   } 
 
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7614.3227N/0025938402048:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7614_3227;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7614_3227;
     fixup_root_shell(INIT_CRED_7614_3227, COMMIT_CREDS_7614_3227, SEL_READ_HANDLE_UNKNOWN_7614_3227, ADD_INIT_7614_3227, ADD_COMMIT_7614_3227);
     return;  
   }  
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7624.3337N/0026810845440:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7624_3337;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7624_3337;
     fixup_root_shell(INIT_CRED_7624_3337, COMMIT_CREDS_7624_3337, SEL_READ_HANDLE_UNKNOWN_7624_3337, ADD_INIT_7624_3337, ADD_COMMIT_7624_3337);
     return;  
   }  
   
-  if (!strcmp(fingerprint, "Amazon/raven/raven:9/PS7633.3445N/0027347744000:user/amz-p,release-keys")) {
+  if (!strcmp(fingerprint, "Amazon/raspite/raspite:11/RS8338.3339N/0030132734852:user/amz-p,release-keys")) {
     selinux_enforcing = SELINUX_ENFORCING_7633_3445;
     sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7633_3445;
     fixup_root_shell(INIT_CRED_7633_3445, COMMIT_CREDS_7633_3445, SEL_READ_HANDLE_UNKNOWN_7633_3445, ADD_INIT_7633_3445, ADD_COMMIT_7633_3445);
